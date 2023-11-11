@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  langchain-jupyter:
+    build: .
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./workspace:/workspace
+
