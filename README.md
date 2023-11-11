@@ -1,5 +1,7 @@
 This project defines a Docker image that builds a container with [LangChain](https://www.langchain.com/), [PyTorch](https://pytorch.org/), the [OpenAI Python Library](https://github.com/openai/openai-python), and the [HuggingFace](https://huggingface.co/) hub and transformers libraries. The container starts a Jupyter lab for experimenting with these technologies.
 
+Once the docker container is started, open `http://localhost:8888` in your browser.
+
 # Docker
 To build and run the Docker container issue the command:
 ```
