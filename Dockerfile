@@ -10,4 +10,4 @@ RUN apt-get update && pip install --upgrade pip && pip install -r requirements.t
 WORKDIR /workspace
 
 # Start Jupyter Lab on container startup
-CMD ["jupyter", "lab", "--ip=0.0.0.0", "--allow-root", "--LabApp.token=''"]
+CMD ["jupyter", "lab", "--ip=0.0.0.0", "--port=8888", "--allow-root", "--LabApp.token=''"]
